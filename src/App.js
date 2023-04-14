@@ -16,7 +16,6 @@ function App() {
     dispatch(getCartItems());
   }, [dispatch]);
 
-
   const { isOpen } = useSelector((state) => state.modal);
 
   if (isLoading) {
